@@ -1,0 +1,29 @@
+{
+  "name": "onstop",
+  "version": "1.0.0",
+  "description": "Calls on function when a recurrent event stops happening.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sorribas/onstop"
+  },
+  "keywords": [
+    "on",
+    "stop",
+    "onstop",
+    "event"
+  ],
+  "author": "Eduardo Sorribas <eduardo@sorribas.org> (http://sorribas.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sorribas/onstop/issues"
+  },
+  "homepage": "https://github.com/sorribas/onstop"
+}
