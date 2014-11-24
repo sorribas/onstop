@@ -15,7 +15,7 @@ var fn = onstop(3000, function() { // if the event stops for 3 seconds this func
   console.log('The event stopped happening.');
 });
 
-someEventEmitter.on('stop', fn);
+someEventEmitter.on('myevent', fn);
 ```
 
 if the event stops happening, then starts, and then stops again, the function will be called twice.
