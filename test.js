@@ -34,7 +34,7 @@ test('if called after stop should call callback again', function(t) {
   setTimeout(callfn, 500);
   setTimeout(callfn, 1000);
   setTimeout(callfn, 1500);
-  setTimeout(callfn, 3500);
+  setTimeout(callfn, 3200);
 });
 
 test('end', function(t) {

@@ -1,14 +1,13 @@
 module.exports = function(time, fn) {
-  var timeout;
-  var last;
-  var lastf;
+  var timeout, last;
 
   var ontimeout = function() {
-    if (Date.now() - last > time && last !== lastf) {
-      lastf = last;
-      fn();
+    var diff = Date.now() - last;
+    if (diff > time) {
+      timeout = null;
+      return fn();
     }
-    setTimeout(ontimeout, time)
+    timeout = setTimeout(ontimeout, Math.max(diff, 100));
   };
 
   return function() {
