@@ -1,6 +1,6 @@
 {
   "name": "onstop",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Calls on function when a recurrent event stops happening.",
   "main": "index.js",
   "dependencies": {},
