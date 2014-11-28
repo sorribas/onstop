@@ -2,6 +2,7 @@ onstop
 ======
 
 Detect when a recurring event has stopped happening, given a time interval.
+A good example of this is [onstoptyping](https://github.com/sorribas/onstoptyping)
 
 Usage
 -----
