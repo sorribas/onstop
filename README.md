@@ -1,6 +1,8 @@
 onstop
 ======
 
+[![build status](https://secure.travis-ci.org/sorribas/onstop.png)](http://travis-ci.org/sorribas/onstop)
+
 Detect when a recurring event has stopped happening, given a time interval.
 A good example of this is [onstoptyping](https://github.com/sorribas/onstoptyping)
 
